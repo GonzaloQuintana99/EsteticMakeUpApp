@@ -14,7 +14,7 @@ import AuthProvider from "./context/AuthProvider";
 import PreguntasFrec from "./components/PreguntasFrec";
 import SobreNosotros from "./components/SobreNosotros";
 import PoliticasPrivacidad from "./components/PoliticasPrivacidad";
-import SearchProvider, { Search } from "./context/SearchProvider";
+import SearchProvider from "./context/SearchProvider";
 import SearchP from "./components/SearchP";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
       <FreeShipping/>
       <Routes>
         <Route path="/" element={<MainPage/>}/>
-        <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
+        {/* <Route path="/category/:categoryId" element={<ItemListContainer/>}/> */}
         <Route path="/itemlist" element={<ItemListContainer/>}/>
         <Route path="/detail/:productId" element={<ItemDetailContainer/>}/>
         <Route path="/cart" element={<CartContainer/>}/>

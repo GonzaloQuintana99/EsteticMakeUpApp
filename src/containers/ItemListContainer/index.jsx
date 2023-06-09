@@ -9,7 +9,7 @@ import { useParams } from 'react-router-dom'
 
 
 
-const itemListContainer = () => {
+const ItemListContainer = () => {
   
 
   const [product, setProduct] = useState([]);
@@ -53,4 +53,4 @@ const itemListContainer = () => {
   )
 }
 
-export default itemListContainer
+export default ItemListContainer

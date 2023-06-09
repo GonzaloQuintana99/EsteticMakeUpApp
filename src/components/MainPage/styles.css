@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+
+.freeShippingBox{
+    padding: 5px;
+    background-color: rgb(255, 213, 0);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+}
+
+.freeShipping{
+    color: #414141;
+    font-size: 16px;
+}
+
+.freeShipping span{
+    color: rgb(174, 0, 0);
+    font-size: 20px;
+}
+
+.shippingCart{
+    margin-left: 5px;
+    font-size: 25px;
+    color: rgb(174, 0, 0);
+}
+
+.banner4{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.banner4img:hover{
+        box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+        -webkit-box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+        -moz-box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+}
+
+.atContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerAt:hover{
+    box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+    -webkit-box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+    -moz-box-shadow: 1px 15px 48px 0px rgba(184,179,179,0.75);
+}
+
+.containerAt{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: #ff45a1;
+    width: 300px;
+    height: 100px;
+}
+
+.hrs{
+    font-size: 16px;
+}
+
+.subContainerAt{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1600px) {
+    .freeShippingBox{
+        height: 35px;
+    }
+    
+    .freeShipping{
+        font-size: 16px;
+    }
+    
+    .freeShipping span{
+        font-size: 17px;
+    }
+    
+    .shippingCart{
+        font-size: 25px;
+    }
+    
+    .atContainer{
+        width: 70%;
+    }
+    
+    .containerAt{
+        font-size: 10px;
+        width: 260px;
+        height: 100px;
+    }
+    
+    .hrs{
+        font-size: 14px;
+    }
+  }
+
+
+  @media (max-width: 1279px) {
+    .freeShippingBox{
+        height: 33px;
+    }
+    
+    .freeShipping{
+        font-size: 15px;
+    }
+    
+    .freeShipping span{
+        font-size: 16px;
+    }
+    
+    .shippingCart{
+        font-size: 24px;
+    }
+    
+    .atContainer{
+        width: 80%;
+    }
+    
+    .containerAt{
+        font-size: 9px;
+        width: 240px;
+        height: 90px;
+    }
+    
+    .hrs{
+        font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .freeShippingBox{
+        height: 33px;
+    }
+    
+    .freeShipping{
+        font-size: 15px;
+    }
+    
+    .freeShipping span{
+        font-size: 16px;
+    }
+    
+    .shippingCart{
+        font-size: 24px;
+    }
+    
+    .atContainer{
+        width: 100%;
+    }
+    
+    .containerAt{
+        font-size: 8px;
+        width: 240px;
+        height: 80px;
+    }
+    
+    .hrs{
+        font-size: 12px;
+    }
+  }    
+
+  @media (max-width: 768px) {
+    .freeShippingBox{
+        height: 33px;
+    }
+    
+    .freeShipping{
+        font-size: 15px;
+    }
+    
+    .freeShipping span{
+        font-size: 16px;
+    }
+    
+    .shippingCart{
+        font-size: 24px;
+    }
+    
+    .banner4img{
+        height: 120px;
+    }
+
+    .atContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .containerAt{
+        margin-bottom: 40px;
+        font-size: 8px;
+        width: 260px;
+        height: 80px;
+    }
+    
+    .hrs{
+        font-size: 12px;
+    }
+  }    
+
+  @media (max-width: 576px) {
+    .freeShippingBox{
+        height: 33px;
+    }
+    
+    .freeShipping{
+        font-size: 15px;
+    }
+    
+    .freeShipping span{
+        font-size: 16px;
+    }
+    
+    .shippingCart{
+        font-size: 24px;
+    }
+    
+    .banner4img{
+        height: 120px;
+    }
+
+    .atContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .containerAt{
+        margin-bottom: 40px;
+        font-size: 8px;
+        width: 260px;
+        height: 80px;
+    }
+    
+    .hrs{
+        font-size: 12px;
+    }
+  }      

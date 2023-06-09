@@ -1,0 +1,219 @@
+.productLoader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-sp{
+    width: 100%;
+    background-color: #f5f2f2c0;
+    margin-bottom: 50px;
+}
+
+.productContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subcategories{
+    background-color: white;
+    width: 20%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.subcategories:hover{
+    box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+    -webkit-box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+    -moz-box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+}
+
+.subcategories h2{
+    width: 100%;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.subcategories-product{
+    padding-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #f5f2f2c0;
+}
+
+.maquillaje-subcategories{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.maquillaje-subcategories li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.maquillaje-subcategories-item{
+    width: 100%;
+    text-decoration: none;
+    color: #919191;
+    transition: .5s;
+}
+
+.maquillaje-subcategories-item:hover{
+    color: #ff45a1;
+    text-decoration: underline #ff45a1;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width: 1600px) {
+    .productContainer{
+        width: 80%;
+    }
+    
+    .subcategories{
+        width: 20%;
+        margin-top: 20px;
+        height: 500px;
+    }
+    
+    .subcategories h2{
+        margin-top: 20px;
+        text-indent: 20px;
+    }
+    
+    .subcategories-product{
+        padding-top: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        background-color: #f5f2f2c0;
+    }
+}
+
+@media (max-width: 1279px) {
+    .productContainer{
+        width: 70%;
+    }
+    
+    .subcategories{
+        width: 30%;
+        margin-top: 20px;
+        height: 500px;
+    }
+    
+    .subcategories h2{
+        margin-top: 20px;
+        text-indent: 20px;
+    }
+    
+    .subcategories-product{
+        padding-top: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        background-color: #f5f2f2c0;
+    }
+}  
+
+@media (max-width: 992px) {
+    .productContainer{
+        width: 70%;
+    }
+    
+    .subcategories{
+        width: 30%;
+        margin-top: 20px;
+        height: 500px;
+    }
+    
+    .subcategories h2{
+        margin-top: 20px;
+        text-indent: 18px;
+    }
+    
+    .maquillaje-subcategories-item{
+        font-size: 13px;
+    }
+
+    .subcategories-product{
+        padding-top: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        background-color: #f5f2f2c0;
+    }
+}   
+
+@media (max-width: 768px) {
+    .productContainer{
+        width: 70%;
+    }
+    
+    .subcategories{
+        width: 30%;
+        margin-top: 20px;
+        height: 450px;
+    }
+    
+    .maquillaje-subcategories-item{
+        font-size: 12px;
+    }
+
+    .maquillaje-subcategories li{
+        margin-bottom: 6px;
+    }
+
+    .subcategories h2{
+        margin-top: 20px;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+    
+    .subcategories-product{
+        padding-top: 50px;
+        width: 80%;
+    }
+}   
+
+@media (max-width: 576px) {
+    .productContainer{
+        width: 60%;
+    }
+    
+    .subcategories{
+        width: 40%;
+        margin-top: 20px;
+        height: 470px;
+    }
+    
+    .maquillaje-subcategories-item{
+        font-size: 12px;
+    }
+
+    .maquillaje-subcategories li{
+        margin-bottom: 6px;
+    }
+
+    .subcategories h2{
+        margin-top: 20px;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+    
+    .subcategories-product{
+        padding-top: 50px;
+        width: 80%;
+    }
+}   

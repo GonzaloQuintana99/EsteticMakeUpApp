@@ -1,0 +1,35 @@
+.testimoniosContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #e8e8ea;
+}
+
+.testimoniosSubContainer{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.imagenT{
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titleT{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    color: #3c4858;
+}

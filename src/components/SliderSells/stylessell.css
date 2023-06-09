@@ -1,0 +1,255 @@
+.sliderSells{
+  margin-top: 10px;
+  width: 70% !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cardSell{
+  height: 400px;
+  width: 260px;
+  cursor: pointer;
+  background-color: white;
+  border: 0.5px rgba(193, 192, 192, 0.787) solid;
+  margin: 20px;
+}
+
+.cardSell:hover{
+  box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+  -webkit-box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+  -moz-box-shadow: 1px 11px 43px 0px rgba(184,179,179,0.75);
+}
+
+.swiper-slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-btn-prevs{
+  font-size: 20px;
+  position: absolute;
+  background-color: #ff45a1;
+  border: 0px;
+  color: white;
+  height: 60px;
+  width: 30px;
+  border-radius: 5px;
+  right: 0%;
+  bottom: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.swiper-btn-nexts{
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #ff45a1;
+  border: 0px;
+  color: white;
+  height: 60px;
+  width: 30px;
+  border-radius: 5px;
+  bottom: 50%;
+  left: 0%;
+  z-index: 2;
+}
+
+.titleSell{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #3c4858;
+}
+
+@media (max-width: 1600px) {
+  .sliderSells{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .cardSell{
+    height: 400px;
+    width: 260px;
+    margin: 10px;
+    border: 0.5px rgba(193, 192, 192, 0.787) solid;
+  }
+  
+  .swiper-slide {
+    width: 100%;
+  }
+  
+  .swiper-btn-prevs{
+    font-size: 20px;
+    border: 0px;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    right: 0%;
+    bottom: 50%;
+  }
+  
+  .swiper-btn-nexts{
+    font-size: 20px;
+    border: 0px;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    bottom: 50%;
+    left: 0%;
+  }
+  
+  .titleSell{
+    margin-top: 30px;
+    width: 65%;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .sliderSells{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .cardSell{
+    height: 360px;
+    width: 230px;
+    margin: 15px;
+}
+  .swiper-btn-prevs{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    right: 0%;
+    bottom: 50%;
+  }
+  
+  .swiper-btn-nexts{
+    font-size: 18px;
+    border: 0px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    bottom: 50%;
+    left: 0%;
+  }
+  
+  .titleSell{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+.sliderSells{
+    width: 72% !important;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.cardSell{
+    height: 360px;
+    width: 220px;
+    margin: 6px;
+}
+  
+.swiper-btn-prevs{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    right: 1%;
+    bottom: 50%;
+}
+  
+.swiper-btn-nexts{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    bottom: 50%;
+    left: 1%;
+}
+  
+.titleSell{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliderSells{
+    width: 70% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.cardSell{
+    height: 360px;
+    width: 220px;
+    margin: 5px;
+}
+  
+.swiper-btn-prevs{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    right: 1%;
+    bottom: 50%;
+}
+  
+.swiper-btn-nexts{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    bottom: 50%;
+    left: 1%;
+}
+  
+.titleSell{
+    font-size: 24px;
+}
+}
+
+@media (max-width: 576px) {
+.sliderSells{
+    width: 70% !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardSell{
+    height: 360px;
+    width: 220px;
+}
+  
+.swiper-btn-prevs{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    right: 1%;
+    bottom: 50%;
+}
+  
+.swiper-btn-nexts{
+    font-size: 18px;
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+    bottom: 50%;
+    left: 1%;
+}
+  
+.titleSell{
+    font-size: 20px;
+}
+}

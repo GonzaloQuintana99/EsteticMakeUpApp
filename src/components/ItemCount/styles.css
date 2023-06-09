@@ -1,0 +1,42 @@
+.containerCount{
+    width: 400px;
+    border: 0px;
+}
+
+.itemCounter{
+    display: flex;
+    border: 2px solid #3c4858;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 60px;
+}
+
+.btnCounter{
+    border: 0px;
+    color: #ff45a1;
+    text-align: center;
+    font-size: 35px;
+    width: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btnAddToCart{
+    border: 2px solid #ff45a1;
+    background-color: white;
+    color: #ff45a1;
+    font-size: 20px;
+    width: 400px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.counter{
+    font-size: 30px;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    color: #3c4858;
+}

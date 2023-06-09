@@ -1,0 +1,86 @@
+.tableCart{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+td{
+    text-align: center;
+    width: 280px;
+    border-bottom: 1px solid #ff45a1;
+    padding: 5px;
+}
+
+thead{
+    width: 100%;
+}
+
+.imageCart{
+    width: 100px;
+}
+
+.finishCart{
+    width: 120px;
+    height: 40px;
+    background-color: #ff45a1;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.clearCart{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(225, 62, 62);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.footerTable{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.cartEmpty{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 41vh;
+}
+
+.btnRemove{
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+.btnRemoveIcon{
+    color: rgb(225, 62, 62);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .tableCart{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 100%;
+    }
+  }

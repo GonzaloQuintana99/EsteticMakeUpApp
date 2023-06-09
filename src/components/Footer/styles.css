@@ -1,0 +1,881 @@
+.footerContainer{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerSubContainer{
+    justify-content: space-around;
+    width: 70%;
+    display: flex;
+}
+
+.footerTitles{
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.footerTitleST{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.infoListItem{
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.infoListItem a{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 12px;
+}
+
+.infoListItem a:hover{
+    color: white;
+}
+
+.footerFooter{
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.footerText{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 64%;
+    border-top: 1px solid rgb(117, 117, 117);
+}
+
+.insta{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.insta a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.face a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.face{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.iconContainer{
+    display: flex;
+    margin-top: 10px;
+}
+
+.insta:hover{
+    background-color: #999999;
+}
+
+.face:hover{
+    background-color: #999999;
+}
+
+.instaIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.phoneContact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.phoneIcon{
+    margin-right: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+.phoneNumber{
+    font-size: 16px;
+}
+
+.phoneNumber:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.containerNL{
+    display: flex;
+    flex-direction: column;
+}
+
+.userNL{
+    color: #d9d9d9;
+    height: 30px;
+    background-color: black;
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    margin-bottom: 10px;
+    transition: 1.2s;
+}
+
+.userNL:focus{
+    border-bottom: 1px solid rgb(174, 0, 0);
+    outline: none;
+}
+
+.mailNL{
+    color: #d9d9d9;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    height: 30px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: black;
+    margin-bottom: 10px;
+    transition: 1.2s;
+}
+
+.mailNL:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(174, 0, 0);
+}
+
+.btnSub{
+    cursor: pointer;
+    background-color: #ff45a1;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: 0px;
+}
+
+@media (max-width: 1600px) {
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footerSubContainer{
+        justify-content: space-around;
+        width: 70%;
+        display: flex;
+    }
+    
+    .footerTitles{
+        margin-top: 20px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    
+    .footerTitleST{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .infoListItem a{
+        font-size: 12px;
+    }
+    
+    .footerFooter{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .footerText{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 64%;
+    }
+    
+    .insta{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .insta a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .iconContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .instaIcon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .phoneContact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .phoneIcon{
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .phoneNumber{
+        font-size: 16px;
+    }
+    
+    .containerNL{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .mailNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btnSub{
+        height: 40px;
+        width: 150px;
+        border: 0px;
+    }
+}    
+
+@media (max-width: 1279px) {
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footerSubContainer{
+        justify-content: space-around;
+        width: 90%;
+        display: flex;
+    }
+    
+    .footerTitles{
+        margin-top: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .subtitles{
+        font-size: 14px;
+    }
+
+    .footerTitles p{
+        font-size: 12px;
+    }
+    
+    .footerTitleST{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    
+    .infoListItem a{
+        font-size: 12px;
+    }
+    
+    .footerFooter{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .footerText{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 64%;
+    }
+    
+    .insta{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .insta a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .iconContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .instaIcon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .phoneContact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .phoneIcon{
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .phoneNumber{
+        font-size: 16px;
+    }
+
+    .phoneContact p{
+        font-size: 11px;
+    }
+    
+    .containerNL{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .mailNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btnSub{
+        height: 40px;
+        width: 150px;
+        border: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footerSubContainer{
+        justify-content: space-around;
+        width: 90%;
+        display: flex;
+    }
+    
+    .footerTitles{
+        margin-top: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .subtitles{
+        font-size: 14px;
+    }
+
+    .footerTitles p{
+        font-size: 12px;
+    }
+    
+    .footerTitleST{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    
+    .infoListItem a{
+        font-size: 12px;
+    }
+    
+    .footerFooter{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .footerText{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 64%;
+    }
+    
+    .insta{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .insta a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .iconContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .instaIcon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .phoneContact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .phoneIcon{
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .phoneNumber{
+        font-size: 16px;
+    }
+
+    .phoneContact p{
+        font-size: 11px;
+    }
+    
+    .containerNL{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .mailNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btnSub{
+        height: 40px;
+        width: 150px;
+        border: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footerSubContainer{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: flex;
+    }
+    
+    .footerTitles{
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .subtitles{
+        font-size: 14px;
+    }
+
+    .footerTitles p{
+        font-size: 11px;
+    }
+
+    .containers {
+        width: 250px;
+        border-bottom: solid 1px rgb(117, 117, 117);
+        padding: 10px;
+    }
+    
+    .footerTitleST{
+        margin-top: 20px;
+        font-size: 11px;
+    }
+    
+    .infoListItem a{
+        font-size: 12px;
+    }
+    
+    .footerFooter{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .footerText{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    .insta{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .insta a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .iconContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .instaIcon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .phoneContact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .phoneIcon{
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .phoneNumber{
+        font-size: 18px;
+    }
+
+    .phoneContact p{
+        font-size: 14px;
+    }
+    
+    .containerNL{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .mailNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btnSub{
+        height: 40px;
+        width: 150px;
+        border: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footerSubContainer{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: flex;
+    }
+    
+    .footerTitles{
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .subtitles{
+        font-size: 14px;
+    }
+
+    .footerTitles p{
+        font-size: 11px;
+    }
+
+    .containers {
+        width: 250px;
+        border-bottom: solid 1px rgb(117, 117, 117);
+        padding: 10px;
+    }
+    
+    .footerTitleST{
+        margin-top: 20px;
+        font-size: 11px;
+    }
+    
+    .infoListItem a{
+        font-size: 12px;
+    }
+    
+    .footerFooter{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .footerText{
+        padding: 20px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .insta{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .insta a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .face{
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .iconContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .instaIcon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .phoneContact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .phoneIcon{
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .phoneNumber{
+        font-size: 18px;
+    }
+
+    .phoneContact p{
+        font-size: 14px;
+    }
+    
+    .containerNL{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .mailNL{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btnSub{
+        height: 40px;
+        width: 150px;
+        border: 0px;
+    }
+}    

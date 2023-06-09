@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navBarTop{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.search {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.searchTerm {
+    width: 710px;
+    border: 3px solid #ff45a1;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+  
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #ff45a1;
+    background: #ff45a1;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login-cart{
+    display: flex;
+    margin: 10px;
+}
+
+.login a{
+    color: #999999;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login span{
+    color: #999999;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cart a{
+    color: #999999;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navBar{
+    background-color: #ff45a1;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.navBarB{
+    background-color: #ff45a1;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.burgerMenu{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80%;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.navBarBot ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navBarBot li{
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.navBarBot2 ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navBarBot2 li{
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.navBarBot2B{
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+li{
+    transition: .5s;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+li a:hover{
+    color: #fdf4b0;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #fdf4b0;
+}
+
+.maquillaje-container{
+    z-index: 2;
+    position: absolute;
+    width: 980px;
+    top: 12%;
+    left: 12%;
+    background-color: white;
+    border: 2px solid #ff45a1;
+    margin: 10px;
+    transition: .9s;
+}
+
+.maquillaje-containerB{
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    transition: .9s;
+}
+
+.maquillaje-items{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.maquillaje-itemsB{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.maquillaje-itemsB li{
+    color: white;
+}
+
+.maquillaje-item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-indent: 10px;
+    width: 220px;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.maquillaje-itemB{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-indent: 10px;
+    width: 220px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.maquillaje-itemB:hover{
+    background-color: white;
+    color: #ff45a1;
+    box-shadow: 0px 9px 8px -3px rgba(0, 0, 0, 0.303);
+}
+
+.maquillaje-item:hover{
+    background-color: #ff45a1;
+    color: white;
+    box-shadow: 0px 9px 8px -3px rgba(0, 0, 0, 0.303);
+}
+
+.hide{
+    display: none;
+}
+
+.burgerNav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    background-color: #ff45a1;
+    z-index: 2;
+}
+
+.burgerNav ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 10px;
+}
+
+.burgerNav ul li{
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 1600px) {
+    .maquillaje-container{
+        left: 9%;
+    }
+  }
+
+@media (max-width: 768px) {
+    .navBarTop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+  }

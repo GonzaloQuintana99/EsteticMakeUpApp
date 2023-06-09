@@ -1,0 +1,87 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.s-container{
+    margin-top: 60px;
+    color: #3c4858;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputLogin{
+    border: 1px solid rgb(211, 210, 210);
+    height: 40px;
+    width: 300px;
+    transition: 1.2s;
+    font-size: 16px;
+    margin: 20px;
+    text-indent: 10px;
+}
+
+.inputLogin:focus{
+    border-bottom: 1px solid rgb(174, 0, 0);
+    outline: none;
+}
+
+.sign-container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.singin-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnLogReg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-color: #ff45a1;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: 0px;
+}
+
+.ls-subc{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btnls{
+    cursor: pointer;
+    background-color: rgb(174, 0, 0);
+    color: white;
+    height: 20px;
+    width: 100px;
+    border: 0px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.titlelr{
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    color: rgb(174, 0, 0);
+}

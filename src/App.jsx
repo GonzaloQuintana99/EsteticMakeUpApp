@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar/NavBar";
-import ItemListContainer from "./containers/itemListContainer";
+import ItemListContainer from "./containers/ItemListContainer";
 import ItemDetailContainer from "./containers/ItemDetailContainer"
 import CartContainer from "./containers/CartContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -29,7 +29,7 @@ function App() {
       <FreeShipping/>
       <Routes>
         <Route path="/" element={<MainPage/>}/>
-        {/* <Route path="/category/:categoryId" element={<ItemListContainer/>}/> */}
+        <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
         <Route path="/itemlist" element={<ItemListContainer/>}/>
         <Route path="/detail/:productId" element={<ItemDetailContainer/>}/>
         <Route path="/cart" element={<CartContainer/>}/>

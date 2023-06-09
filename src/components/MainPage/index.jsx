@@ -19,11 +19,6 @@ import { GrMail } from 'react-icons/Gr';
 
       <div>
         <SliderBanner/>
-        <div className='wpIcon'>
-        <div className='borderWP'>
-            <a href="https://web.whatsapp.com/send?phone=5493815584946&text=Hola%20Estetic%20Make%20Up"><AiOutlineWhatsApp className='wp'/></a>
-        </div>
-        </div>
         <SliderSells/>
         <div className='banner4'>
         <Link to="/itemlist"><img className='banner4img' src="/img/banner4.png" alt="banner"/></Link>
